@@ -1,0 +1,8 @@
+{
+  "name": "dotcom",
+  "version": "0.0.0",
+  "dependencies": {
+    "pjax": "~1.7.3"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,6 @@
+node_modules
+dist
+.sass-cache
+app/public/scripts/vendor
+.DS-Store
+.tmp

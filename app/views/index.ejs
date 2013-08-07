@@ -1,0 +1,23 @@
+<div>
+    <h1>PJAX example</h1>
+    <p>
+    	<strong>with-image</strong> partial (view) has an image. 
+    	<strong>without-image</strong> doesn't.
+    </p>
+    <p>
+    	When pjax'ing from with-image to without-image, Express receives a request 
+    	for both the view, plus the image that was on with-image.
+    </p>
+    <p>
+    	Watch the debug output in the console, to see the requests Express receives. 
+    </p>
+    <p>
+    	Is this a feature or bug?
+    </p>
+    <p>
+        <a href="/with-image" data-pjax>Goto with-image</a>
+    </p>
+    <p>
+        <a href="/without-image" data-pjax>Goto without-image</a>
+    </p>
+</div>
